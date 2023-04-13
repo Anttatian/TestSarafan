@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content=""><!--В атрибуте content указываются через запятую важные, ключевые, слова, из, содержания, страницы-->
+	<meta name="description" content=""><!--В атрибуте content указываются краткое описание или анотация-->
+	<title>Стартовый шаблон</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body class="page">
+	<header class="header">
+		<img class="header__logo" src="images/logo_1.png" alt="Логотип торгово-увлекательного ценра Сарафан">
+		<nav class="header__menu">
+			<ul>
+				<li class="header__menu-list-point">Режим работы: &nbsp пн-вс 10:00-21:00<br>Лента 08:00-22:00</li>
+				<!--<li class="header__menu-list-point">пн-вс 10:00-21:00<br>Лента 08:00-22:00</li>-->
+				<li class="header__menu-list-point">
+					<a href="#" title="Контакты">Контакты</a>
+				</li>
+				<li class="header__menu-list-point">
+					<a href="#" title="Карта ТЦ">Карта ТЦ</a>
+				</li>
+			</ul>
+			<form class="menu-list-search">
+				<input type="text" class="menu-list-search-block" placeholder="Найти магазин">
+				<input type="submit" class="menu-list-search-button" value="">
+			</form>	
+		</nav>
+		<div class="dropdown">	
+			<button class="dropbtn">
+			</button>
+			<div class="dropdown-content">
+				<ul class="dropdown__main-list">
+					<li>
+						<a title="О нас" href="#">О нас</a>
+					</li>
+					<li>
+						<a title="События" href="#">События</a>
+					</li>
+					<li>
+						<a title="Галерея" href="#">Галерея</a>
+					</li>
+					<li>
+						<a title="Аренда" href="#">Аренда</a>
+					</li>
+					<li>
+						<a title="Карта ТЦ" href="#">Карта ТЦ</a>
+					</li>
+					<li>
+						<a title="Контакты" href="#">Контакты</a>
+					</li>
+					<li>
+						<a title="Вакансии" href="#">Вакансии</a>
+					</li>
+					<li>
+						<a title="Тренды" href="#">Тренды</a>
+					</li>
+				</ul>
+				<hr class="vertical-line">
+				<ul class="dropdown__shop-list">
+					<li>
+						<a title="Магазины" href="#">
+							<h3>Магазины</h3>
+						</a>
+					</li>
+					<li>
+						<a title="Все магазины" href="#">Все магазины</a>
+					</li>
+					<li>
+						<a title="Женская одежда" href="#">Женская одежда</a>
+					</li>
+					<li>
+						<a title="Мужская одежда" href="#">Мужская одежда</a>
+					</li>
+					<li>
+						<a title="Детская одежда" href="#">Детская одежда</a>
+					</li>
+					<li>
+						<a title="Детские товары" href="#">Детские товары</a>
+					</li>
+					<li>
+						<a title="Обувь" href="#">Обувь</a>
+					</li>
+					<li>
+						<a title="Кожгалантерея" href="#">Кожгалантерея</a>
+					</li>
+					<li>
+						<a title="Продукты" href="#">Продукты</a>
+					</li>
+					<li>
+						<a title="Цифровая и бытовая техника" href="#">Цифровая и бытовая техника</a>
+					</li>
+					<li>
+						<a title="Парфюмерия, косметика" href="#">Парфюмерия, косметика</a>
+					</li>
+					<li>
+						<a title="Ювелирные украшения" href="#">Ювелирные украшения</a>
+					</li>
+					<li>
+						<a title="Сувениры, подарки" href="#">Сувениры, подарки</a>
+					</li>
+					<li>
+						<a title="Полезное" href="#">Полезное</a>
+					</li>
+					<li>
+						<a title="Товары для дома" href="#">Товары для дома</a>
+					</li>
+					<li>
+						<a title="Спортивные товары, одежда" href="#">Спортивные товары, одежда</a>
+					</li>
+					<li>
+						<a title="Товары для животных" href="#">Товары для животных</a>
+					</li>
+				</ul>
+				<ul class="dropdown__cafe-list">
+					<li>
+						<a title="Кафе и рестораны" href="#">
+							<h3>Кафе и рестораны</h3>
+						</a>
+					</li>
+					<li>
+						<a title="Кафе и рестораны" href="#">Кафе и рестораны</a>
+					</li>
+					<li>
+						<a title="Рестораны быстрого обслуживания" href="#">Рестораны быстрого обслуживания</a>
+					</li>
+					<li>
+						<a title="Кофейни" href="#">Кофейни</a>
+					</li>
+					<li>
+						<a title="Мороженное и десерты" href="#">Мороженное и десерты</a>
+					</li>
+				</ul>
+				<ul class="dropdown__services-list">
+					<li>
+						<a title="Услуги и сервисы" href="#">
+							<h3>Услуги и сервисы</h3>
+						</a>
+					</li>
+					<li>
+						<a title="Банкоматы" href="#">Банкоматы</a>
+					</li>
+					<li>
+						<a title="Салоны связи" href="#">Салоны связи</a>
+					</li>
+					<li>
+						<a title="Парикмахерские" href="#">Парикмахерские</a>
+					</li>
+					<li>
+						<a title="Администрация" href="#">Администрация</a>
+					</li>
+					<li>
+						<a title="Продукты" href="#">Продукты</a>
+					</li>
+					<li>
+						<a title="Другое" href="#">Другое</a>
+					</li>
+				</ul>
+				<ul class="dropdown__entertainment-list">
+					<li>
+						<a title="Развлечения" href="#">
+							<h3>Развлечения</h3>
+						</a>
+					</li>
+					<li>
+						<a title="Джунгли парк" href="#">Джунгли парк</a>
+					</li>
+					<li>
+						<a title="Мероприятия" href="#">Мероприятия</a>
+					</li>
+					<li>
+						<a title="Акции" href="#">Акции</a>
+					</li>
+					<li>
+						<a title="Новости" href="#">Новости</a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</header>
+	<main class="content">
+		<div class="breadcrumb">
+			<ul>
+				<li>
+					<a href="#" title="Главная">Главная</a>
+				</li>
+				<li>
+					<span>&nbsp;>&nbsp;</span>
+				</li>
+				<li>
+					<a class="active" href="#" title="Аренда">Аренда</a>
+				</li>
+			</ul>
+		</div>
+		<section class="rent">
+			<img src="images/Rectangle_15.png" alt="Главная картинка">
+			<div class="rent-information">
+				<h1>Аренда в ТУЦ "Сарафан"</h1>
+				<p class="rent-information-1">Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул. Путейская, д.5 (Площадь Московского вокзала), предлагает помещения в аренду от собственника от 25 до 1000 кв. м.
+				</p>
+				<a title="Скачать презентацию" href="#">Скачать презентацию <img src="images/loading_arrow.png" alt="стрелка загрузки"></a>
+				<h3>Преимущества аренды в нашем торговом центре:
+				</h3>
+				<ul>
+					<li><p>ТЦ «Сарафан» находится в 5 минутах езды от центра города на площади Московского вокзала на одной из самых оживленных улиц города – Красноармейский проспект.</p></li>
+					<li><p>Рядом жилой массив, пересечение основных транспортных и пешеходных потоков –конечная остановка общественного транспорта, железнодорожный вокзал.</p></li>
+					<li><p>На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов, более 500 машиномест, удобный подъезд.</p></li>
+					<li><p>Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной целевой аудитории</p></li>
+					<li><p>Демократичные цены за аренду площади</p></li>
+					<li><p>У нас Вы можете арендовать площадь под магазины белья, одежды и обуви, салоны, точки общепита и др.</p></li>
+				</ul>
+				<p class="rent-information-2">
+					Открытие торговой точки в одном из оживленных мест города обеспечит доходность, развитие и процветание Вашего бизнеса.
+				</p>
+			</div>
+		</section>
+		<section class="shops">
+			<h2>Более 130 бутиков и магазинов уже арендуют у нас помещения</h2>
+			<div class="wrapper">
+				<div class="shops-slider">
+					<div class="slider">
+						<img src="images/logo-familia.png" alt="Familia">
+						<img src="images/logo-Letual.png" alt="Летуаль">
+						<img src="images/logo-lenta.png" alt="Лента">
+					</div>
+					<div class="button">
+						<button class="slider-prev">Prev</button>
+						<button class="slider-next">Next</button>
+					</div>	
+				</div>
+				<div class="shops-information">
+					<ul>
+						<li>
+							<p>Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис, Familia, Читай город, Тутанхамон, Л'Этуаль
+							</p>
+						</li>
+						<li>
+							<p>Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri Karra, Ledy Collection, Paolo Conte, P'Cont, VINZER, Ace, Tonnelli, Milavitsa, и др.
+							</p>
+						</li>
+						<li>
+							<p>Магазины спортивной одежды и инвентаря: Адреналин, Спорт Лайн
+							</p>
+						</li>
+						<li>
+							<p>Зона фудкорта - Burger King, Империя вкуса, Про Кофий, Добрая сдоба
+							</p>
+						</li>
+						<li>
+							<p>Салоны связи: Билайн, Мегафон, YOTA, Связной, Теле2
+							</p>
+						</li>
+						<li>
+							<p>
+							Зоосад, аптека «Здесь аптека», «Арт-оптика», Fresh Оптика, ковры, салоны штор, текстиль Missis Hatson и Home TEX, салон Арт-Самовар, посуда, подарки, картины, сувениры и другие.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>			
+		</section>
+		<section class="information">
+			<ul>
+				<li>Общая площадь<br>торгового центра<br>
+					<span>25 816 м2</span>
+				</li>
+				<li>Площадь, сдаваемая<br>в аренду<br>
+					<span>16 675 м2</span>
+				</li>
+				<li>Парковка<br>(машиномест)<br>
+					<span>500</span>
+				</li>
+				<li>Посещаемость<br>(в неделю)<br>
+					<span>100 000 чел</span>
+				</li>
+			</ul>
+			<div>
+				<img class="inside" src="images/inside.png" alt="Галерея торгового центра">
+				<img class="outside" src="images/outside.png" alt="Вход в торговый центр">
+			</div>
+		</section>
+		<section class="galeries">
+			<img src="images/galery-1 (3).png" alt="Торговая галлерея" >
+			<img src="images/galery-1 (2).png" alt="Центральная лестница">
+			<img src="images/galery-1 (1).png" alt="Торговые ряды">
+		</section>
+	</main>
+	<footer class="footer">
+		<img class="footer__logo" src="images/logo_1.png" alt="Логотип ТУЦ Сарафан">
+		<nav class="footer__menu-list">
+			<ul>
+				<li>
+					<a title="Магазины" href="#">Магазины</a>
+				</li>
+				<li>
+					<a title="Кафе и рестораны" href="#">Кафе и рестораны</a>
+				</li>
+				<li>
+					<a title="Услуги и сервисы" href="#">Услуги и сервисы</a>
+				</li>
+				<li>
+					<a title="Развлечения" href="#">Развлечения</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a title="О нас" href="#">О нас</a>
+				</li>
+				<li>
+					<a title="События" href="#">События</a>
+				</li>
+				<li>
+					<a title="Галерея" href="#">Галерея</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a title="Аренда" href="#">Аренда</a>
+				</li>
+				<li>
+					<a title="Контакты" href="#">Контакты</a>
+				</li>
+				<li>
+					<a title="Вакансии" href="#">Вакансии</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a title="Тендеры" href="#">Тендеры</a>
+				</li>
+				<li>
+					<a title="Политика конфиденциальности" href="#">Политика конфиденциальности</a>
+				</li>
+				<li>
+					<a title="Карта ТЦ" href="#">Карта ТЦ</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="contacts">
+			<div class="contacts-search">
+				<form class="menu-list-search">
+					<input type="text" class="menu-list-search-block" placeholder="Найти магазин">
+					<input type="submit" class="menu-list-search-button" value="">
+				</form>	
+			</div>	
+			<div class="contacts-links">
+				<a title="Telegram" href="#" target="_blank">
+					<img class="telegram" src="images/Telegram.png" alt="Телеграм">
+				</a>
+				<a title="ВКонтакте" href="#" target="_blank">
+					<img class="VK" src="images/VK.png" alt="ВКонтакте">
+				</a>
+			</div>	
+		</div>
+		<div class="connection">
+			<ul>
+				<li>300041, Тульская обл.,
+					г. Тула, ул. Путейская, д. 5</li>
+				<li>ТЦ Сарафан: 10:00-21:00
+					Лента: 08:00-22:00</li>
+				<li>+7 (4872) 33-80-55</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="script/main.js"></script>
+</body>
+</html>
